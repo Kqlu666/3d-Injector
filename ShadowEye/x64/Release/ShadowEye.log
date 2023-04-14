@@ -1,0 +1,77 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (EacSpy.vcxproj, eac_spy.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  pch.cpp
+  be_spy.cpp
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(30,17): warning C4477: 'snprintf' : format string '%02x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'uintptr_t'
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(30,17): message : consider using '%llx' in the format string
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(30,17): message : consider using '%Ix' in the format string
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(30,17): message : consider using '%I64x' in the format string
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(34,35): warning C4477: 'snprintf' : format string '%02x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'void *'
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(34,35): warning C4313: 'snprintf': '%x' in format string conflicts with argument 1 of type 'void *'
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\hook_shellcode.h(114,28): warning C4244: 'initializing': conversion from 'uintptr_t' to 'int32_t', possible loss of data
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\be_spy.cpp(98,37): warning C4244: '=': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+  crash_handler.cpp
+  dbg_symbols.cpp
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\dbg_symbols.cpp(39,105): warning C4244: 'argument': conversion from 'uintptr_t' to 'DWORD', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(2859,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(2718,1): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\include\xstring(2718,37): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\dbg_symbols.cpp(29): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\dbg_symbols.cpp(28,33): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  disassembly.cpp
+  hooks.cpp
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\hook_shellcode.h(114,28): warning C4244: 'initializing': conversion from 'uintptr_t' to 'int32_t', possible loss of data
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(30,17): warning C4477: 'snprintf' : format string '%02x' requires an argument of type 'unsigned int', but variadic argument 2 has type 'uintptr_t'
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(30,17): message : consider using '%llx' in the format string
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(30,17): message : consider using '%Ix' in the format string
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(30,17): message : consider using '%I64x' in the format string
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(34,35): warning C4477: 'snprintf' : format string '%02x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'void *'
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\address_info.h(34,35): warning C4313: 'snprintf': '%x' in format string conflicts with argument 1 of type 'void *'
+  on_be_entrypoint.cpp
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\hook_shellcode.h(114,28): warning C4244: 'initializing': conversion from 'uintptr_t' to 'int32_t', possible loss of data
+  portable_executable.cpp
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\portable_executable.cpp(18,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\portable_executable.cpp(25,54): warning C4312: 'type cast': conversion from 'int' to 'uint8_t *' of greater size
+  utils.cpp
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\utils.cpp(44,80): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+C:\Users\hualu\Documents\GitHub\ShadowEye\ShadowEye\utils.cpp(71,73): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+     Creating library C:\Users\hualu\Documents\GitHub\ShadowEye\x64\Release\ShadowEye.lib and object C:\Users\hualu\Documents\GitHub\ShadowEye\x64\Release\ShadowEye.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 256 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+Zydis.lib(Decoder.obj) : warning LNK4099: PDB '' was not found with 'Zydis.lib(Decoder.obj)' or at ''; linking object as if no debug info
+Zydis.lib(Utils.obj) : warning LNK4099: PDB '' was not found with 'Zydis.lib(Utils.obj)' or at ''; linking object as if no debug info
+Zydis.lib(Register.obj) : warning LNK4099: PDB '' was not found with 'Zydis.lib(Register.obj)' or at ''; linking object as if no debug info
+Zydis.lib(DecoderData.obj) : warning LNK4099: PDB '' was not found with 'Zydis.lib(DecoderData.obj)' or at ''; linking object as if no debug info
+Zydis.lib(SharedData.obj) : warning LNK4099: PDB '' was not found with 'Zydis.lib(SharedData.obj)' or at ''; linking object as if no debug info
+  ShadowEye.vcxproj -> C:\Users\hualu\Documents\GitHub\ShadowEye\x64\Release\ShadowEye.dll
